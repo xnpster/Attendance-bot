@@ -1,3 +1,4 @@
-resources
-tokens
 .idea
+src/main/resources/credentials
+src/main/resources/tokens
+target

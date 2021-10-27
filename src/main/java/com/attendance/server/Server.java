@@ -21,7 +21,7 @@ public class Server {
     public static void main(String[] args) throws GeneralSecurityException, IOException {
         LOGGER.info("Server starting...");
 
-        ConfigurationManager.getInstance().loadConfigurationFile("src/main/resources/config.json");
+        ConfigurationManager.getInstance().loadConfigurationFile("resources/config.json");
         Configuration conf = ConfigurationManager.getInstance().getCurrentConfiguration();
 
         LOGGER.info("Using Port: " + conf.getPort());
